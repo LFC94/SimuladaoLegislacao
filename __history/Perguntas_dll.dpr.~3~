@@ -1,0 +1,45 @@
+library Perguntas_dll;
+
+uses
+  System.SysUtils,
+  System.Classes,
+  Vcl.ExtCtrls,
+  Vcl.StdCtrls;
+
+{$R *.res}
+
+
+Function PerguntasLT(Lbl_Perg: TLabel ;Rdg_Perg:TRadioGroup; IdPerg:Integer):Integer; Export;
+begin
+   Rdg_Perg.Items.Clear;
+   Lbl_Perg.Caption := '';
+   case IdPerg of
+      1:
+      begin
+          Lbl_Perg.Caption := 'A atua legislação de trâsito intitula-se:';
+          Rdg_Perg.Items.Add('A) Código Nacional de Trânsito');
+          Rdg_Perg.Items.Add('B) Código de Trânsito');
+          Rdg_Perg.Items.Add('C) Código de Trânsito Brasileiro');
+          Rdg_Perg.Items.Add('D) Código Brasileiro de Trânsito');
+
+          Result := 3;
+      end;
+      2:
+      begin
+          Lbl_Perg.Caption := '';
+          Rdg_Perg.Items.Add('A) ');
+          Rdg_Perg.Items.Add('B) ');
+          Rdg_Perg.Items.Add('C) ');
+          Rdg_Perg.Items.Add('D) ');
+
+          Result := 0;
+      end;
+   end;
+
+
+end;
+
+Exports PerguntasLT;
+
+begin
+end.

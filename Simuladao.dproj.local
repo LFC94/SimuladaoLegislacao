@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2014/10/12 20:46:36.000.239,=D:\Lucas Felipe\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/10/12 20:57:17.000.161,D:\Lucas Felipe\Documents\Codigo Fonte\Simuladao de Legislaçao\rincialf.pas=D:\Lucas Felipe\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/10/12 20:57:17.000.161,D:\Lucas Felipe\Documents\Codigo Fonte\Simuladao de Legislaçao\rincialf.dfm=D:\Lucas Felipe\Documents\RAD Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2014/10/12 20:58:04.000.195,D:\Lucas Felipe\Documents\Codigo Fonte\Simuladao de Legislaçao\Simuladao.dproj=D:\Lucas Felipe\Documents\RAD Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2014/10/12 22:12:11.000.920,=D:\Lucas Felipe\Documents\Codigo Fonte\Simuladao de Legislaçao\Unit2.pas</Transaction>
+    <Transaction>2014/10/12 22:12:47.000.970,D:\Lucas Felipe\Documents\Codigo Fonte\Simuladao de Legislaçao\Unit2.dfm=D:\Lucas Felipe\Documents\Codigo Fonte\Simuladao de Legislaçao\perguntas_f.dfm</Transaction>
+    <Transaction>2014/10/12 22:12:47.000.970,D:\Lucas Felipe\Documents\Codigo Fonte\Simuladao de Legislaçao\Unit2.pas=D:\Lucas Felipe\Documents\Codigo Fonte\Simuladao de Legislaçao\perguntas_f.pas</Transaction>
+  </Transactions>
+</BorlandProject>

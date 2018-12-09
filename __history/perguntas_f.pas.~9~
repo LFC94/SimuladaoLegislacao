@@ -1,0 +1,45 @@
+unit perguntas_f;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Vcl.StdCtrls, Vcl.Buttons;
+
+type
+  TFrm_Pergunta = class(TForm)
+    Panel1: TPanel;
+    Panel2: TPanel;
+    RdG_Pergunta: TRadioGroup;
+    Panel3: TPanel;
+    Lbl_Pergunta: TLabel;
+    Panel4: TPanel;
+    BitBtn1: TBitBtn;
+    BitBtn2: TBitBtn;
+    procedure FormShow(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+
+var
+  Frm_Pergunta: TFrm_Pergunta;
+  Function Perguntas(Lbl_Perg: TLabel ;Rdg_Perg:TRadioGroup; IdPerg:Integer):Integer; External 'Perguntas_dll.dll';
+
+
+implementation
+
+{$R *.dfm}
+
+procedure TFrm_Pergunta.FormShow(Sender: TObject);
+var
+  idP:Integer;
+begin
+    Randomize;
+    idP := Random(2);
+    Perguntas(Lbl_Pergunta,RdG_Pergunta,idP);
+end;
+
+end.
